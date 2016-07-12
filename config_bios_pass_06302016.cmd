@@ -16,7 +16,7 @@ REM http://support.lenovo.com/us/en/docs/um015241
 
 :paths
 SET loc=%~dp0
-SET BIOSPassword=789uc
+SET BIOSPassword=XXXXX
 SET ThinkCentreOrThinkStation=0
 :thinkpad-pw
 WMIC CSPRODUCT GET Version | Find /i "ThinkPad"
